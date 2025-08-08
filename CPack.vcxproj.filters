@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{80d40ba0-cc38-4c6a-b655-24ce8c0ccbd7}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\CPKCore">
+      <UniqueIdentifier>{b714c07b-98ac-444f-9380-0876eed78c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FilterMgr">
+      <UniqueIdentifier>{f56c8d23-3385-477a-b9d7-f36bace22b06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MD5">
+      <UniqueIdentifier>{220699ee-71b0-41b4-b38e-d731f975bec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{0065f558-9c56-4caf-80da-e3b2ac2e0d4b}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CPack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPackDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPackView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LeftView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SortClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPKCore\CPKCore.cpp">
+      <Filter>Source Files\CPKCore</Filter>
+    </ClCompile>
+    <ClCompile Include="CPKCore\DiscIOMgr.cpp">
+      <Filter>Source Files\CPKCore</Filter>
+    </ClCompile>
+    <ClCompile Include="MemMgr\MemMgr.cpp">
+      <Filter>Source Files\CPKCore</Filter>
+    </ClCompile>
+    <ClCompile Include="CPKCore\Util.cpp">
+      <Filter>Source Files\CPKCore</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterMgr\FilterMgr.cpp">
+      <Filter>Source Files\FilterMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="lzss.cpp">
+      <Filter>Source Files\FilterMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterMgr\MINILZO\MINILZO.C">
+      <Filter>Source Files\FilterMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Md5\md5.cpp">
+      <Filter>Source Files\MD5</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CPack.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPackDoc.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPackView.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeftView.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressDialog.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SortClass.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPKCore\CPKCore.h">
+      <Filter>Source Files\CPKCore</Filter>
+    </ClInclude>
+    <ClInclude Include="CPKCore\CPKDefine.h">
+      <Filter>Source Files\CPKCore</Filter>
+    </ClInclude>
+    <ClInclude Include="CPKCore\DiscIOMgr.h">
+      <Filter>Source Files\CPKCore</Filter>
+    </ClInclude>
+    <ClInclude Include="MemMgr\MemMgr.h">
+      <Filter>Source Files\CPKCore</Filter>
+    </ClInclude>
+    <ClInclude Include="CPKCore\Util.h">
+      <Filter>Source Files\CPKCore</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterMgr\FilterMgr.h">
+      <Filter>Source Files\FilterMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterMgr\Minilzo\Lzoconf.h">
+      <Filter>Source Files\FilterMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="lzss.h">
+      <Filter>Source Files\FilterMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterMgr\MINILZO\MINILZO.H">
+      <Filter>Source Files\FilterMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Md5\md5.h">
+      <Filter>Source Files\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="Md5\MD5_define.h">
+      <Filter>Source Files\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\COPLAND.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\CPack.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\CPackDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\title.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CPack.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\CPack.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="CPack.reg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
